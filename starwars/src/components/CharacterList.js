@@ -7,8 +7,7 @@ const CharacterList = ({characters}) => {
   console.log('CharacterList:', characters);
 
   return (
-    <div className="character-card">
-
+    <div className="character-list">
       {characters.map((character) => {
         const {created} = character;
 

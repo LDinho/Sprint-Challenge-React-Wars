@@ -1,12 +1,22 @@
 import React from 'react';
 
+import './StarWars.css';
+
 const Character = ({character}) => {
-  console.log('Character Name:', character.name)
-  const { name } = character;
+  const {name, birth_year, gender, hair_color} = character;
 
   return (
-    <div className="character-details">
+    <div className="character-card">
       <h2>{name}</h2>
+      <p>
+        <strong>Birth Year: </strong>{birth_year}
+      </p>
+      <p>
+        <strong>Gender: </strong>{gender}
+      </p>
+      <p>
+        <strong>Hair Color: </strong>{hair_color}
+      </p>
 
     </div>
   )

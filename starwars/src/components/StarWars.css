@@ -1,0 +1,19 @@
+.character-list {
+    border-top: 1px solid saddlebrown;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.character-card {
+    border: 1px solid saddlebrown;
+    background-color: #ffffff8c;
+    /* opacity: 0.5; */
+    width: 35%;
+    height: 220px;
+    margin: 3% auto 3% auto;
+}
+
+h2 {
+    border-bottom: 1px solid #a0522d40;
+}
