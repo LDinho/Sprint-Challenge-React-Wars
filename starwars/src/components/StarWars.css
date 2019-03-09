@@ -28,4 +28,6 @@
 
 h2 {
     border-bottom: 1px solid #a0522d40;
+    padding: 3%;
+    margin: inherit;
 }
