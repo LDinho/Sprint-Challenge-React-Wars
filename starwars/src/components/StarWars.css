@@ -4,6 +4,11 @@
     flex-wrap: wrap;
 }
 
+@media (max-width: 600px) {
+    .character-list {
+        flex-direction: column;
+    }
+}
 
 .character-card {
     border: 1px solid saddlebrown;
@@ -12,6 +17,13 @@
     width: 35%;
     height: 220px;
     margin: 3% auto 3% auto;
+}
+
+@media (max-width: 600px) {
+    .character-card {
+        width: 90%;
+
+    }
 }
 
 h2 {
